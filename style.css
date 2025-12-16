@@ -27,3 +27,13 @@ body {
     position: absolute;
     z-index: 10;
 }
+
+.earth-orbit {
+    width: 300px;
+    height: 300px;
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
