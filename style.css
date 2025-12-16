@@ -5,7 +5,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0b0d17; /* Deep space dark blue */
+    background-color: #0b0d17;
+    /* Deep space dark blue */
     overflow: hidden;
 }
 
@@ -45,5 +46,18 @@ body {
     border-radius: 50%;
     box-shadow: 0 0 10px #4da6ff;
     position: absolute;
-    left: -15px; /* Centers earth on the orbit line */
+    left: -15px;
+    /* Centers earth on the orbit line */
+}
+
+/* Moon Orbit Ring */
+.moon-orbit {
+    width: 60px;
+    height: 60px;
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
