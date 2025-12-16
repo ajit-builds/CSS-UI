@@ -37,3 +37,13 @@ body {
     display: flex;
     align-items: center;
 }
+
+.earth {
+    width: 30px;
+    height: 30px;
+    background-color: #4da6ff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #4da6ff;
+    position: absolute;
+    left: -15px; /* Centers earth on the orbit line */
+}
