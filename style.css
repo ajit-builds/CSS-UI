@@ -1,0 +1,19 @@
+/* Reset and Background */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b0d17; /* Deep space dark blue */
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
