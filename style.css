@@ -71,3 +71,17 @@ body {
     top: 26px; /* Positions moon on the ring */
     left: -4px;
 }
+/* Animations */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Apply animation to orbits */
+.earth-orbit {
+    animation: spin 10s linear infinite;
+}
+
+.moon-orbit {
+    animation: spin 3s linear infinite;
+}
