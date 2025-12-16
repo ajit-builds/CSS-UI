@@ -61,3 +61,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* The Moon */
+.moon {
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px; /* Positions moon on the ring */
+    left: -4px;
+}
