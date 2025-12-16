@@ -1,4 +1,3 @@
-/* Reset and Background */
 body {
     margin: 0;
     height: 100vh;
@@ -6,7 +5,6 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #0b0d17;
-    /* Deep space dark blue */
     overflow: hidden;
 }
 
@@ -37,6 +35,7 @@ body {
     position: absolute;
     display: flex;
     align-items: center;
+    animation: spin 10s linear infinite;
 }
 
 .earth {
@@ -47,10 +46,8 @@ body {
     box-shadow: 0 0 10px #4da6ff;
     position: absolute;
     left: -15px;
-    /* Centers earth on the orbit line */
 }
 
-/* Moon Orbit Ring */
 .moon-orbit {
     width: 60px;
     height: 60px;
@@ -60,28 +57,20 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: spin 3s linear infinite;
 }
-/* The Moon */
+
 .moon {
     width: 8px;
     height: 8px;
     background-color: #ccc;
     border-radius: 50%;
     position: absolute;
-    top: 26px; /* Positions moon on the ring */
+    top: 26px;
     left: -4px;
 }
-/* Animations */
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-}
-
-/* Apply animation to orbits */
-.earth-orbit {
-    animation: spin 10s linear infinite;
-}
-
-.moon-orbit {
-    animation: spin 3s linear infinite;
 }
