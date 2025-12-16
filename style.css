@@ -17,3 +17,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.sun {
+    width: 80px;
+    height: 80px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    box-shadow: 0 0 40px #ffcc00, 0 0 80px #ff8800;
+    position: absolute;
+    z-index: 10;
+}
